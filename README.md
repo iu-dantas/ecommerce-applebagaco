@@ -18,6 +18,7 @@ O **Apple Bagaço** é um projeto de e-commerce dropshipping desenvolvido para f
 
 O Apple Bagaço será construído utilizando as seguintes tecnologias:
 
+- **ChatGPT:** Para auxilio da criação do Copy.
 - **Figma:** Para a criação dos protótipos.
 - **HTML e CSS:** Para a criação e estilização das páginas.
 - **JavaScript:** Para funcionalidades interativas.

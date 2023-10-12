@@ -1,0 +1,110 @@
+/*Config Gerais*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  background: #f6fbe6;
+}
+
+.title {
+  color: #000;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*Config Header*/
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 0px solid #000;
+  background-color: #f6fbe6;
+}
+
+.navbar-logo {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.search-bar {
+  width: 30rem;
+  height: 4.1rem;
+  border-radius: 1.5rem;
+}
+
+.search-bar button {
+  background: url("/src/img/search-icon.png") no-repeat;
+  width: 4rem;
+}
+
+.navicons {
+  display: flex;
+  gap: 2rem;
+}
+
+.navicon4 {
+  margin-right: 5rem;
+}
+
+/*CARROSSEL*/
+
+#carrossel {
+  width: 100vw;
+  margin-bottom: 5rem;
+}
+
+/*CATEGORIAS*/
+
+.row {
+  justify-content: space-around;
+  margin: 10rem;
+}
+
+.custom-col {
+  border: 0.5rem solid #000;
+  border-radius: 50%;
+  padding: 3rem;
+  height: 19rem;
+  text-decoration: none;
+  color: black;
+}
+
+.custom-col h2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.custom-col:hover {
+  border: 0.6rem solid #93c16c;
+  color: #d63e3a;
+}
+
+/*FOOTER*/
+
+footer {
+  color: #fff;
+  background-color: #000;
+  width: 100vw;
+  height: 25rem;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 8rem;
+  padding: 6rem;
+}
+
+.news {
+  justify-content: flex-end;
+}

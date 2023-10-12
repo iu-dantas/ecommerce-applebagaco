@@ -47,7 +47,7 @@ nav {
 }
 
 .search-bar button {
-  background: url("/src/img/search-icon.png") no-repeat;
+  background: url("src/img/search-icon.png") no-repeat;
   width: 4rem;
 }
 
@@ -107,4 +107,14 @@ footer {
 
 .news {
   justify-content: flex-end;
+}
+
+/*-----------ESTILIZAÇÃO DA PAGINA DE PRODUTOS-----------*/
+
+.container-produtos h1 {
+  margin: 5rem 0;
+}
+
+.card img {
+  margin-bottom: 2rem;
 }

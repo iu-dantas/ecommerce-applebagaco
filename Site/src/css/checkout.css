@@ -1,0 +1,86 @@
+/*Config Gerais*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  background: #f6fbe6;
+}
+
+.title {
+  color: #000;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*Config Header*/
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 0px solid #000;
+  background-color: #f6fbe6;
+}
+
+.navbar-logo {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.search-bar {
+  width: 30rem;
+  height: 4.1rem;
+  border-radius: 1.5rem;
+}
+
+.search-bar button {
+  background: url("src/img/search-icon.png") no-repeat;
+  width: 4rem;
+}
+
+.navicons {
+  display: flex;
+  gap: 2rem;
+}
+
+.navicon4 {
+  margin-right: 5rem;
+}
+
+/*FOOTER*/
+
+footer {
+  color: #fff;
+  background-color: #000;
+  width: 100vw;
+  height: 25rem;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 8rem;
+  padding: 6rem;
+  margin-top: 3rem;
+}
+
+.news {
+  justify-content: flex-end;
+}
+
+.container-check {
+  max-width: 960px;
+}
+
+.lh-condensed {
+  line-height: 1.25;
+}

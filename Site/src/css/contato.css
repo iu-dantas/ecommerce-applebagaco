@@ -111,22 +111,99 @@ footer {
 
 /*-----------ESTILIZAÇÃO DA PAGINA DE PRODUTOS-----------*/
 
-.container-produtos h1 {
-  margin: 5rem 0;
+main {
+  display: grid;
+  grid-template-areas:
+    "titulo titulo titulo titulo"
+    "lateral lateral princ princ"
+    "lateral lateral princ princ"
+    "lateral lateral princ princ"
+    "lateral lateral princ princ"
+    "lateral lateral princ princ"
+    "lateral lateral princ princ"
+    "lateral lateral princ princ";
+  gap: 3rem;
+  grid-template-rows: 2rem auto 10vh;
+  margin: 1rem 6rem;
+}
+.container-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 5rem;
+  margin-top: 4rem;
+  gap: 2rem;
 }
 
-.card img {
-  margin-bottom: 2rem;
+.contateNos {
+  grid-area: titulo;
+  font-size: 4.5rem;
+  margin-top: 3rem;
+}
+.contato {
+  grid-area: lateral;
+  border: 0.1rem solid black;
+  gap: 2rem;
+  width: 45vw;
+  height: 120vh;
 }
 
-.carousel-caption {
-  margin-bottom: 5rem;
+.faleConosco {
+  grid-area: princ;
+  border: 0.1rem solid black;
+  width: 45vw;
+  height: 120vh;
 }
 
-.btn-group button {
-  margin: 2rem 0;
+.faleConosco h2 {
+  text-align: left;
+  font-size: 4rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
 }
 
-.form-label-group {
-  margin: 1rem 0;
+main section h2 {
+  font-size: 3rem;
+}
+
+.p {
+  font-size: small;
+}
+
+.faleConosco form {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.input {
+  width: 55rem;
+  height: 2.5rem;
+  margin: 0.5rem;
+}
+
+.msg {
+  height: 420px;
+}
+
+.info-container {
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  width: 100%;
+}
+
+.contato iframe {
+  position: relative;
+  bottom: 2rem;
+  width: 90%;
+  height: 32rem;
+  border: 0;
+}
+
+.sub-title {
+  margin-top: 2rem;
 }
